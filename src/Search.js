@@ -5,7 +5,7 @@ import SearchIcon from "@material-ui/icons/search";
 export default function Search() {
   return (
     
-    <div className="search">
+    <form className="search">
       <div className="search__input">
         <SearchIcon className="search__inputIcon" />
         <input />
@@ -14,7 +14,7 @@ export default function Search() {
       <div className="search__buttons">
       
       </div>
-    </div>
+    </form>
   );
 }
 
