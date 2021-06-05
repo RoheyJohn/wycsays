@@ -26,7 +26,7 @@ export default function Home() {
 
       {/*Home Body*/}
       <div className="home__body">
-        <img src="https://www.canva.com/design/DAEfCWL3cMs/Ii3Je_0zQaPtlPJQ1venpA/view?utm_content=DAEfCWL3cMs&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu" alt="logo"/>
+        <img src="https://cdn2.iconfinder.com/data/icons/social-icons-color/512/paytm-256.png" alt="logo"/>
 
         <div className="home__inputContainer">
           {/* <Search /> */}
