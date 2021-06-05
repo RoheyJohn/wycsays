@@ -1,6 +1,8 @@
 import React from "react";
 import './Search.css';
 import SearchIcon from "@material-ui/icons/search";
+import { Button } from "@material-ui/core";
+import { useHistory } from "react-router-dom";
 
 export default function Search({ hideButtons = false }) {
 
@@ -22,13 +24,13 @@ export default function Search({ hideButtons = false }) {
 
       {!hideButtons ? (
         <div className="search__buttons">
-        <Buttons type="submit" onClick={search} variants="outlined">Constitution Search</Buttons>
-        <Buttons variants="outlined">Favorites</Buttons>
+        <Button type="submit" onClick={search} variants="outlined">Constitution Search</Button>
+        <Button variants="outlined">Favorites</Button>
       </div>
       ) : (
         <div className="search__buttons">
-        <Buttons className="search__buttonsHidden" type="submit" onClick={search} variants="outlined">Constitution Search</Buttons>
-        <Buttons className="search__buttonsHidden" variants="outlined">Favorites</Buttons>
+        <Button className="search__buttonsHidden" type="submit" onClick={search} variants="outlined">Constitution Search</Button>
+        <Button className="search__buttonsHidden" variants="outlined">Favorites</Button>
       </div>
       )}
       
