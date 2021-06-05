@@ -23,5 +23,19 @@
 }
 
 .search__inputIcon{
-  
+  color: #e68c10;
+}
+
+.search__buttons button{
+  margin: 5px;
+  padding: 7px 15px;
+  background-color: #e68c10;
+  border: 1px solid #e68c00;
+  text-transform: inherit;
+  color: white;
+}
+
+.search__buttons button:hover{
+  box-shadow: 0 1px 1px #e68c00;
+  background-image: -webkit-linear-gradient(top, #e68c10);
 }
